@@ -1,0 +1,107 @@
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+
+
+.from1{
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+
+.imgt{
+    margin-bottom: 8px;
+
+}
+
+div.container{
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 20px;
+    display: flex;
+    float: right;
+    width: auto;
+
+}
+
+
+  .Product-card-1{
+    box-sizing: border-box;
+    max-width: 220px;
+    background-color: rgb(232, 78, 12);
+    overflow: hidden;
+    height: 324px;
+    border-radius: 10px;
+  }
+
+
+  
+  .counter-section p{
+    color:white;
+    text-transform: uppercase;
+  }
+
+
+  .p1{
+    height: 220px;
+    text-align: center;
+    background-color: rgb(225, 225, 12);
+    color: #2f2b2b;
+   
+    
+  }
+
+  .cont {
+    position: relative;
+    width: 100%;
+   padding: 5px;
+  }
+  
+  /* Make the image responsive */
+  .cont img {
+    width: 100%;
+    opacity: 0.2;
+   
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .cont .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #fff9f9;
+    color: rgb(45, 41, 41);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .cont .btn:hover {
+    background-color: rgb(53, 235, 177);
+  }
+
+.p5{
+  color: rgb(35, 215, 8);
+}
+
+.d6{
+  color: rgb(20, 20, 232);
+}
+
+#demo5{
+  margin-top: 5px;
+}
+
+@media screen and (min-width: 360px),(max-width:1400){
+  div.m{ 
+    min-width: 360px;
+  };
+    
+}
